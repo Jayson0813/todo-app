@@ -1,0 +1,54 @@
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5em;
+  font-size: 20px;
+  border: .2em solid hsl(var(--muted) / 0.8);
+  padding: .5em;
+  border-radius: calc(var(--_radius) * 2);
+  margin-bottom: 2rem;
+}
+
+.tasks {
+  display: grid;
+  list-style-type: none;
+  gap: 1.5em;
+}
+
+.task-container {
+  background-color: hsl(var(--container1));
+  padding-top: 2rem;
+  border-radius: 1.5rem;
+  margin-top: 2rem;
+}
+
+.task-bg {
+  background-color: hsl(var(--container2));
+  margin: 1.5rem;
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+
+.task-header {
+  background-color: hsl(var(--container1));
+  margin: -4rem auto 2rem auto;
+  border: .4rem solid hsl(var(--bg));
+  border-radius: 2rem;
+  width: 16rem;
+  height: 4rem;
+}
+
+h1 {
+  margin-top: -1.5rem;
+  color: hsl(var(--txt));
+}
+
+.task-head {
+  background-color: hsl(var(--bg));
+  border: 1rem solid hsl(var(--container1));
+  margin: -1.5rem auto 0 auto;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
