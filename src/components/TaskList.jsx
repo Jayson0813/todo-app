@@ -10,7 +10,7 @@ const TaskList = ({ tasks, deleteTask, toggleTask, enterEditMode }) => {
     <div className={styles['task-container']}>
     <div className={styles['task-header']}>
       <div className={styles['task-head']}></div>
-      <h1>My Task List</h1>
+      <div className={styles.title}>My Task List</div>
     </div>      
 
     <div className={styles['task-bg']}>
